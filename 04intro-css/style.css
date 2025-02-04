@@ -1,6 +1,6 @@
 body{
     font-family: "Chakra Petch", serif;
-    margin: 10;
+    margin: 10px;
     background-color: #00275A;
 
 
@@ -21,7 +21,7 @@ font-weight: 700;
 /*  navigation stuff*/
 nav {
 background-color: #7c17ef;
-border-radius: 10px;
+border-radius: 48px;
 
 }
 nav ul{
@@ -34,7 +34,7 @@ nav a {
 display: block;
     padding: .83rem 1rem;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color:#ffffff;
 font-weight:700;
 }
