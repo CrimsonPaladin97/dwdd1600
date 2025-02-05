@@ -21,7 +21,7 @@ font-weight: 700;
 /*  navigation stuff*/
 nav {
 background-color: #7c17ef;
-border-radius: 48px;
+border-radius: 20px;
 
 }
 nav ul{
@@ -40,8 +40,8 @@ font-weight:700;
 }
 
 nav li.active a {
-    background-color: #fff;
-    
+    background-color: #00f06a;
+    border-radius: 10px;
     color:#000;
 }
 
