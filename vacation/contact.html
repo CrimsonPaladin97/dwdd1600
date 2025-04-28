@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Conner Pearson">
+  <meta name="description" content="Welcome to Budget Vacations">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+ 
+
+
+  <title>Budget Vacations</title>
+</head>
+
+
+<body>
+  <!--navigation menu-->
+  <header>
+   
+    <div>
+      <span>
+      Budget Vacations
+      </span>
+
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+ 
+      <li><a href="gallery.html">Destinations</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li class="active"><a href="contact.html">Contact</a></li>
+    </ul>
+
+  </nav>
+    <main>
+
+        <h1>Make a Donation </h1>
+    
+
+        <form method="get" class="myForm" action="thanks.html">
+          
+          
+            <fieldset>
+          
+
+                <legend>What can we help you with?</legend>
+                <p>We know that planning a teip can be stressful, so let us help you in any way we can.</p>
+                <label>choose inquiry
+                    <select name="time">
+                        <option value="destination">Question about a destination</option>
+                        <option value="services">Question about our services</option>
+                        <option value="support">Customer support</option>
+                        
+                    </select>
+                </label>
+
+                <label>Comments
+                  <textarea name="comments">What can we help you with?</textarea>
+  
+              </label>
+<br>
+                <label>How to contact you:</label>
+                <label><input type="radio" name="method" value="phone">phone</label><label><input type="tel" name="phone" required>
+                </label>
+                <label><input type="radio" name="method" value="email">email</label><label><input type="email" name="email" required>
+                </label>
+                <label><input type="radio" name="method" value="mail">mail</label><label><input type="text" name="card" required>
+                </label>
+              
+                
+                <input type="submit" value="Submit">
+                 
+
+            </fieldset>
+        
+</form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Conner Pearson &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
